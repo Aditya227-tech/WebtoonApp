@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "react-native-manga-reader-app",
+    "description": "A React Native / Expo app for cross-platform manga reading",
+    "slug": "react-native-manga-reader-app",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "version": "0.3.1",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "githubUrl": "https://github.com/agilgur5/react-native-manga-reader-app",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222222"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "./assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
